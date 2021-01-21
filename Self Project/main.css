@@ -51,3 +51,23 @@ body,
   color: #937061;
   transition: 0.5s;
 }
+
+@media (max-width: 1024px) {
+  #Contents {
+    width: 90%;
+  }
+
+  #header > h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  #Contents {
+    width: 100%;
+  }
+
+  #header > h1 {
+    font-size: 25px;
+  }
+}
