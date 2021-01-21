@@ -48,3 +48,31 @@ body,
   text-align: center;
   font-family: "Kalam", cursive;
 }
+
+@media (max-width: 1024px) {
+  #Contents {
+    width: 90%;
+  }
+
+  #header > h1 {
+    font-size: 30px;
+  }
+
+  #introduce > article {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  #Contents {
+    width: 100%;
+  }
+
+  #header > h1 {
+    font-size: 25px;
+  }
+
+  #introduce > article {
+    width: 100%;
+  }
+}
